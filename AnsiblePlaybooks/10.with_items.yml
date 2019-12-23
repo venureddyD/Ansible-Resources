@@ -22,7 +22,6 @@
       - libxml2-devel
       - unzip
       - createrepo
-      - htop
       - iotop
       - wget
       - tar
