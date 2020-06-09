@@ -34,7 +34,7 @@
   copy: src=tomcat-initscript.sh dest=/etc/init.d/tomcat mode=0755
   
 - name: Deploy the webapp to Tomcat
-  copy: src=webapp.war dest=/usr/share/tomcat/webapps owner=tomcat group=tomcat
+  copy: src=example.war dest=/usr/share/tomcat/webapps owner=tomcat group=tomcat
 
 - name: Start Tomcat
   service: name=tomcat state=started enabled=yes
